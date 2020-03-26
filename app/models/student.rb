@@ -7,4 +7,5 @@ class Student < ActiveRecord::Base
     if !self.active
       puts "This student is currently inactive."
     end
+  end
 end
